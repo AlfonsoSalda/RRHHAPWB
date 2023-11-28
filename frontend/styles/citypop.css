@@ -1,0 +1,46 @@
+/* citypop.css */
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    margin: 20vh auto;
+    background-color: #7e8df7; /* Color principal inspirado en City Pop */
+  }
+  
+  .container {
+    width: 80%;
+    margin: auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 50px; /* Ajusta según tus necesidades */
+  }
+  
+  h1 {
+    color: #7e8df7; /* Color principal inspirado en City Pop */
+  }
+  
+  .button-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  button {
+    padding: 10px 10px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #7e8df7; /* Color principal inspirado en City Pop */
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+  }
+  
+  button:hover {
+    background-color: #5561c3; /* Color secundario inspirado en City Pop */
+  }
+  
